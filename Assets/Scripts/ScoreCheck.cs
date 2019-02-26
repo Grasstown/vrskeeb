@@ -26,14 +26,14 @@ public class ScoreCheck : MonoBehaviour {
         {
             score += 100;
         }
-        else if (other.tag.Equals("50"))
+        else if (other.CompareTag("50"))
         {
             score += 50;
         }
         else if (other.CompareTag("10"))
         {
             score += 10;
-        }
+        }		
     }
 
     void SetScore()

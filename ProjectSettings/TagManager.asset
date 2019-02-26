@@ -8,6 +8,7 @@ TagManager:
   - 50
   - 100
   - Ball
+  - Tip
   layers:
   - Default
   - TransparentFX

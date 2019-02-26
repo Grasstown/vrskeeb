@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vrskeeb", "vrskeeb.csproj", "{331EF91F-0671-27C9-A7E8-1B0F69666839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vrskeeb.Editor", "vrskeeb.Editor.csproj", "{E6D75717-067C-A200-5D78-1F77202738BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{331EF91F-0671-27C9-A7E8-1B0F69666839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331EF91F-0671-27C9-A7E8-1B0F69666839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331EF91F-0671-27C9-A7E8-1B0F69666839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331EF91F-0671-27C9-A7E8-1B0F69666839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D75717-067C-A200-5D78-1F77202738BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D75717-067C-A200-5D78-1F77202738BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D75717-067C-A200-5D78-1F77202738BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D75717-067C-A200-5D78-1F77202738BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
