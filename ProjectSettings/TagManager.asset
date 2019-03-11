@@ -7,8 +7,6 @@ TagManager:
   - 10
   - 50
   - 100
-  - Ball
-  - Tip
   layers:
   - Default
   - TransparentFX
@@ -18,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Grabbable
   - 
   - 
   - 
