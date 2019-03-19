@@ -40,10 +40,12 @@ namespace HoloToolkit.Unity.InputModule
 
         [Tooltip("Use a model with the tip in the positive Z direction and the front face in the positive Y direction. To override the platform left controller model set AlwaysUseAlternateModel to true; otherwise this will be the default if the model can't be found.")]
         [SerializeField]
-        protected GameObject AlternateLeftController;
+        public GameObject AlternateLeftController;
+        //protected GameObject AlternateLeftController;
         [Tooltip("Use a model with the tip in the positive Z direction and the front face in the positive Y direction. To override the platform right controller model set AlwaysUseAlternateModel to true; otherwise this will be the default if the model can't be found.")]
         [SerializeField]
-        protected GameObject AlternateRightController;
+        public GameObject AlternateRightController;
+        //protected GameObject AlternateRightController;
         [Tooltip("Use this to override the indicator used to show the user's touch location on the touchpad. Default is a sphere.")]
         [SerializeField]
         protected GameObject TouchpadTouchedOverride;

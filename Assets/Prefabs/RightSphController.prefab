@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabAttachSpot: {fileID: 0}
-  strength: 1.2
+  strength: 1
   handedness: 2
   grabbableLayers:
     serializedVersion: 2
