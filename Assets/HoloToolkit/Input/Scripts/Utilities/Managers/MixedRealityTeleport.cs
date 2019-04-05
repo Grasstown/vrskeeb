@@ -270,10 +270,8 @@ namespace HoloToolkit.Unity.InputModule
                     () => // Action after fade out
                     {
                         transform.RotateAround(CameraCache.Main.transform.position, Vector3.up, rotationAmount);
+                        
                     }, null); // Action after fade in
-                //custom stuff
-                transform.GetChild(1).gameObject.GetComponent<MotionControllerVisualizer>().AlternateLeftController.transform.transform.RotateAround(CameraCache.Main.transform.position, Vector3.up, rotationAmount);
-                transform.GetChild(1).gameObject.GetComponent<MotionControllerVisualizer>().AlternateRightController.transform.transform.RotateAround(CameraCache.Main.transform.position, Vector3.up, rotationAmount);
             }
         }
 

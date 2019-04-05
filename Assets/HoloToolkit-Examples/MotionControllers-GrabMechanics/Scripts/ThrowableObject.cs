@@ -18,6 +18,11 @@ namespace HoloToolkit.Unity.InputModule.Examples.Grabbables
             //Vector3 vel = grabbable.GetAverageVelocity();
             Vector3 vel = LatestControllerThrowVelocity;
             Vector3 angVel = LatestControllerThrowAngularVelocity;
+
+            //factor in rotation
+            Transform cameraParent = Camera.main.transform.parent;
+            var tv = cameraParent.TransformDirection(vel);
+            vel = tv;
             if (GetComponent<GrabbableFixedJoint>() || GetComponent<GrabbableSpringJoint>())
             {
                 StartCoroutine(ThrowDelay(vel, angVel, grabbable));

@@ -319,8 +319,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1850730992894404}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.34, z: 5.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4587520633816736}
@@ -328,7 +328,7 @@ Transform:
   - {fileID: 4562275514082094}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4562275514082094
 Transform:
   m_ObjectHideFlags: 1
@@ -528,6 +528,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -669,7 +670,6 @@ MonoBehaviour:
   FloorQuad: {fileID: 1520281459093612, guid: 08d25ccfbbc595b4a820c7edd551d095, type: 2}
   boundaryHeight: 10
   opaqueTrackingSpaceType: 1
-  transparentTrackingSpaceType: 0
   renderFloor: 1
   renderBoundary: 1
 --- !u!114 &114180319962519104
@@ -685,6 +685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseLastLayer: 1
   TargetSortingLayerName: Default
+  renderers: []
 --- !u!114 &114225625019075894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -788,11 +789,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnimateControllerModel: 1
-  AlwaysUseAlternateLeftModel: 0
-  AlwaysUseAlternateRightModel: 0
-  AlternateLeftController: {fileID: 1097318689274706, guid: 869d340c69dbcef459070c1a159d38ac,
+  AlwaysUseAlternateLeftModel: 1
+  AlwaysUseAlternateRightModel: 1
+  AlternateLeftController: {fileID: 1374505326365076, guid: bb82e74db0fbdae41a31e977cca8338e,
     type: 2}
-  AlternateRightController: {fileID: 1097318689274706, guid: 869d340c69dbcef459070c1a159d38ac,
+  AlternateRightController: {fileID: 1337079734929702, guid: 8b1fe8e38bec38d48b143711b96ac785,
     type: 2}
   TouchpadTouchedOverride: {fileID: 0}
   GLTFMaterial: {fileID: 2100000, guid: 2ac78523d661e954c83d799f582b22e8, type: 2}
@@ -838,11 +839,12 @@ MonoBehaviour:
   EnableTeleport: 1
   EnableRotation: 1
   EnableStrafe: 1
+  StayOnTheFloor: 0
   RotationSize: 45
   StrafeAmount: 0.5
   teleportMarker: {fileID: 1503526479864244, guid: 10d95b99055c6ad40b735cc8b3593745,
     type: 2}
-  useCustomMapping: 0
+  useCustomMapping: 1
 --- !u!114 &114828096048444974
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 579
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -327,19 +327,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/HoloToolkit/Input/Scripts/Utilities/Managers
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HoloToolkit/Input/Scripts/Utilities/Managers
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\wukm1\Documents\Unity Projects\vrskeeb
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 124}
-    m_SelectedIDs: c03c0000
-    m_LastClickedID: 15552
-    m_ExpandedIDs: 000000009e390000b639000038440000a445000096470000ec4a0000224b0000344c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 864}
+    m_SelectedIDs: 70400000
+    m_LastClickedID: 16496
+    m_ExpandedIDs: 00000000a0390000b83900005c3e0000c84500001046000004480000f24800002a490000904b0000a24c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e390000b639000038440000bc480000224b0000344c0000
+    m_ExpandedIDs: 00000000a0390000b83900005c3e0000c84500001046000004480000f24800002a490000904b0000a24c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -484,10 +484,10 @@ MonoBehaviour:
     height: 558
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 51}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: f4a9fdff26aafdff48f7fdff6c0afeff9c0dfeff123ffeff1842fefffa5dfeffd6faffff60fbffff64fbffff96fbfffff4ffffff00000000666600004c6d0000
+    m_ExpandedIDs: 22faffff64fbffff96fbffff00000000a24f000028500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,14 +538,14 @@ MonoBehaviour:
     height: 558
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2899.2145877999997
+  lastFramingTime: 2100.3737143
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4666669, y: 0.5694165, z: 1.6768632}
+    m_Target: {x: -0.15660977, y: 1.2144508, z: 3.6334152}
     speed: 2
-    m_Value: {x: -1.4666669, y: 0.5694165, z: 1.6768632}
+    m_Value: {x: -0.15660977, y: 1.2144508, z: 3.6334152}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,13 +569,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.051023286, y: 0.925224, z: -0.1344532, w: -0.35111192}
+    m_Target: {x: -0.08451199, y: 0.85575205, z: -0.1480496, w: -0.488495}
     speed: 2
-    m_Value: {x: -0.051023286, y: 0.925224, z: -0.1344532, w: -0.35111192}
+    m_Value: {x: -0.084511995, y: 0.8557521, z: -0.14804961, w: -0.48849502}
   m_Size:
-    m_Target: 7.80386
+    m_Target: 3.533452
     speed: 2
-    m_Value: 7.80386
+    m_Value: 3.533452
   m_Ortho:
     m_Target: 0
     speed: 2
