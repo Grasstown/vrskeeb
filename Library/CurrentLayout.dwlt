@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 119
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 120
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 121
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,19 +327,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\wukm1\Documents\Unity Projects\vrskeeb
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 864}
-    m_SelectedIDs: 70400000
-    m_LastClickedID: 16496
-    m_ExpandedIDs: 00000000a0390000b83900005c3e0000c84500001046000004480000f24800002a490000904b0000a24c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: a0390000
+    m_LastClickedID: 14752
+    m_ExpandedIDs: 00000000a0390000b83900005c3e0000c84500001046000034480000224900005a49000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0390000b83900005c3e0000c84500001046000004480000f24800002a490000904b0000a24c0000
+    m_ExpandedIDs: 00000000a0390000b83900005c3e0000a4440000c84500001046000034480000224900005a490000c04b0000d24c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -484,10 +484,10 @@ MonoBehaviour:
     height: 558
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 51}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 22faffff64fbffff96fbffff00000000a24f000028500000
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: e6faffff
+    m_LastClickedID: -1306
+    m_ExpandedIDs: c81cfeff96fbffff00000000d24f00001650000058500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,14 +538,14 @@ MonoBehaviour:
     height: 558
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2100.3737143
+  lastFramingTime: 6244.6579962999995
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.15660977, y: 1.2144508, z: 3.6334152}
+    m_Target: {x: -0.5696268, y: 0.9083988, z: 4.7303066}
     speed: 2
-    m_Value: {x: -0.15660977, y: 1.2144508, z: 3.6334152}
+    m_Value: {x: -0.5696268, y: 0.9083988, z: 4.7303066}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,13 +569,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.08451199, y: 0.85575205, z: -0.1480496, w: -0.488495}
+    m_Target: {x: 0.07035995, y: 0.67847764, z: -0.065546416, w: 0.7283002}
     speed: 2
-    m_Value: {x: -0.084511995, y: 0.8557521, z: -0.14804961, w: -0.48849502}
+    m_Value: {x: 0.07035995, y: 0.67847764, z: -0.065546416, w: 0.7283002}
   m_Size:
-    m_Target: 3.533452
+    m_Target: 5.099157
     speed: 2
-    m_Value: 3.533452
+    m_Value: 5.099157
   m_Ortho:
     m_Target: 0
     speed: 2
