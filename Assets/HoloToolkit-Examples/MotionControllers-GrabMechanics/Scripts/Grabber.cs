@@ -84,7 +84,7 @@ namespace HoloToolkit.Unity.InputModule.Examples.Grabbables
                 return;
             }
 
-            Debug.Log("Adding contact");
+            //Debug.Log("Adding contact");
 
             AddContact(bg);
         }
@@ -108,7 +108,7 @@ namespace HoloToolkit.Unity.InputModule.Examples.Grabbables
                 return;
             }
 
-            Debug.Log("Removing contact");
+            //Debug.Log("Removing contact");
 
             RemoveContact(bg);
         }
@@ -132,7 +132,7 @@ namespace HoloToolkit.Unity.InputModule.Examples.Grabbables
             }
 
             Rigidbody rb = grabbable.GetComponent<Rigidbody>();
-            Debug.Log("name of our rb.center of mass ========= " + rb.name);
+            //Debug.Log("name of our rb.center of mass ========= " + rb.name);
             ControllerReleaseData controlReleaseData = grabbable.GetComponent<Rigidbody>().GetThrowReleasedVelocityAndAngularVelocity(rb.centerOfMass, poseInfo);
 
             //grabbable.GetComponent<BaseThrowable>().LatestControllerThrowVelocity = vel;
