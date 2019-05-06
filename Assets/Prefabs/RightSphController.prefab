@@ -112,12 +112,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabAttachSpot: {fileID: 0}
-  strength: 1.5
+  strength: 5.5
   handedness: 2
   grabbableLayers:
     serializedVersion: 2
     m_Bits: 256
-  pressType: 3
+  pressType: 1
 --- !u!135 &135190183011146526
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -934,9 +934,6 @@
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextMeshColorThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs" />
     <Compile Include="Assets\Scripts\ballmanager.cs" />
-    <Compile Include="Assets\Scripts\fiddypt.cs" />
-    <Compile Include="Assets\Scripts\hunnidpt.cs" />
-    <Compile Include="Assets\Scripts\tenpt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />

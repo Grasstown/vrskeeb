@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114723207860451676}
   - component: {fileID: 114979764733260770}
   - component: {fileID: 114491386391112640}
+  - component: {fileID: 114592887639814288}
   m_Layer: 8
   m_Name: Ball
   m_TagString: Untagged
@@ -40,7 +41,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1338453554008562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00999999, y: 0.407, z: 4.17}
+  m_LocalPosition: {x: 0.205, y: 0.64, z: 4.27}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -117,6 +118,18 @@ MonoBehaviour:
   grabStyle: 0
   matchPosition: 1
   matchRotation: 1
+--- !u!114 &114592887639814288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338453554008562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b859ebf636f9991468be8abc9b8ac22b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hands: {fileID: 0}
 --- !u!114 &114723207860451676
 MonoBehaviour:
   m_ObjectHideFlags: 1
