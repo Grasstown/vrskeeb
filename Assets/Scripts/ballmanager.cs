@@ -5,17 +5,17 @@ using HoloToolkit.Unity.InputModule;
 using UnityEngine;
 
 public class ballmanager : MonoBehaviour {
-
-    private static Rigidbody rb;
+    
     private Text scoreText;
     private static int score;
+    private Vector3 startingPoint;
     public GameObject hands;
     
 	// Use this for initialization
 	void Start () {
         scoreText = GameObject.FindObjectOfType<Text>();
-        rb = gameObject.GetComponent<Rigidbody>();
         score = 0;
+        startingPoint = transform.position;
 	}
 
     private void Update()
@@ -37,12 +37,15 @@ public class ballmanager : MonoBehaviour {
         {
             case "10":
                 score += 10;
+                gameObject.SetActive(false);
                 break;
             case "50":
                 score += 50;
+                gameObject.SetActive(false);
                 break;
             case "100":
                 score += 100;
+                gameObject.SetActive(false);
                 break;
             default:
                 break;
@@ -53,8 +56,10 @@ public class ballmanager : MonoBehaviour {
         if (gameObject.transform.position.y < -0.5)
         {
             score -= 10;
-            rb.velocity = rb.angularVelocity = Vector3.zero;
-            rb.GetComponent<Transform>().SetPositionAndRotation(new Vector3(0.0f, 0.6f, 4.27f), Quaternion.identity);
+            gameObject.SetActive(false);
+            gameObject.GetComponent<Rigidbody>().velocity = gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            gameObject.GetComponent<Transform>().SetPositionAndRotation(startingPoint, Quaternion.identity);
+            gameObject.SetActive(true);
         }
     }
 }
